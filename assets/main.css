@@ -19,6 +19,10 @@
     cursor: pointer;
 }
 
+.accordion__icon {
+    transition: rotate 0.3s;
+}
+
 .accordion__trigger {
     display: flex;
     justify-content: space-between;
@@ -42,6 +46,6 @@
     padding: 0 20px 20px;
 }
 
-.accordion__item.active .accordion__content{
-    display: flex;
+.accordion__item.active .accordion__icon {
+    rotate: 180deg;
 }
