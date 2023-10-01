@@ -33,7 +33,15 @@
     font-weight: 600;
 }
 
+.accordion__content {
+    display: none;
+}
+
 .accordion__text {
     font-size: 14px;
     padding: 0 20px 20px;
+}
+
+.accordion__item.active .accordion__content{
+    display: flex;
 }
